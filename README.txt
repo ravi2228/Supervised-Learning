@@ -10,6 +10,11 @@ To run the code in this project, make sure you have matplotlib, numpy, sklearn, 
 Top level folder overview:
 There is only one folder which contains all the codes and csv datafiles.
 
+Where to find data files and python script:
+- You can find all the files at following github location:
+
+https://github.com/ravi2228/Supervised-Learning
+
 Supervised Learning.ipynb - Jupyter notebook containing all the code needed to run analyses/experiments on both the datasets
 CreditCardDefaultData.csv - Credit Card default data in csv format
 BankMarketingData.csv - Bank Marketing Data in csv format
@@ -20,14 +25,18 @@ How to use:
 - Simply uncomment the section of code you'd like to run, corresponding to an analysis, and run the python file
 
 How to run a Python file:
-- on Windows: python "filename".py - with no quotations
-- on Mac: python3 "filename".py - with no quotations
+- Open the IPYNB file in the Jupyter notebook and press shift+enter to run the code present in each cell
+
 
 To uncomment the necessary code in the source files (it will look like below):
  '''code
 	code
 	code
 	code'''
+
+or 
+
+# text
 	
-Simply remove the three apostrophes (or single quotes) on both ends to uncomment a section of code
+Simply remove the three apostrophes (or single quotes) on both ends (or #) to uncomment a section of code
 
